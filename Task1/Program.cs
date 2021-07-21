@@ -50,10 +50,8 @@ namespace Task1 {
         }
     }
 
-    class Solution
-    {
-        public static int solution(int[] ranks)
-        {
+    class Solution {
+        public static int solution(int[] ranks) {
 
             return SoldiersRank.CalcRank(ranks);
         }
