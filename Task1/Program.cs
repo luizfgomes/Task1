@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace Task1 {
     class Program {
+
         static void Main(string[] args) {
 
             int[] ranks = new int[9];
@@ -51,6 +52,7 @@ namespace Task1 {
     }
 
     class Solution {
+
         public static int solution(int[] ranks) {
 
             return SoldiersRank.CalcRank(ranks);
@@ -58,6 +60,7 @@ namespace Task1 {
     }
 
     class Validation{
+
         public static bool ValidationTheArray(int[] ranks) {
 
             bool validation = true;
